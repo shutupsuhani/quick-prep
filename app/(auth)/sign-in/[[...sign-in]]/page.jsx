@@ -47,7 +47,7 @@ export default function Page() {
   href="#"
 >
   <span className="sr-only">Home</span>
-  <img src="https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJwd2JIM1BIdWFRREI1U1d4SXpPTHJXTWU2eSJ9?width=200" alt="Home" />
+  <img src="./thunder.png" alt="Home" />
 </a>
           <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
             Welcome to Quick-Prep AI

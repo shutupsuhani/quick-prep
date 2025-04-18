@@ -23,10 +23,10 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://www.mockmateai.com'),
+  metadataBase: new URL('https://www.quick-prep-ai.com'),
   title: {
     default: 'Quick-Prep AI - AI-Powered Interview Preparation',
-    template: '%s | MockMate AI'
+    template: '%s |  AI'
   },
   description: 'Elevate your interview skills with AI-powered mock interviews. Get personalized coaching, real-time feedback, and boost your confidence.',
   keywords: [
@@ -37,14 +37,14 @@ export const metadata = {
     'job interview help'
   ],
   authors: [{ name: 'Quick-Prep AI Team' }],
-  creator: 'MockMate AI',
-  publisher: 'MockMate AI',
+  creator: 'Quick-Prep AI',
+  publisher: 'Quick-Prep AI',
   
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://mockmateai-eta.vercel.app/',
-    title: 'MockMate AI - AI-Powered Interview Preparation',
+    url: 'https://quick-prep-delta.vercel.app/',
+    title: 'Quick-Prep AI - AI-Powered Interview Preparation',
     description: 'Elevate your interview skills with AI-powered mock interviews. Get personalized coaching, real-time feedback, and boost your confidence.',
     siteName: 'Quick-Prep AI',
     images: [
@@ -52,16 +52,16 @@ export const metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'MockMate AI - Revolutionizing Interview Preparation'
+        alt: 'Quick-Prep AI - Revolutionizing Interview Preparation'
       }
     ]
   },
   
   twitter: {
     card: 'summary_large_image',
-    title: 'MockMate AI - AI-Powered Interview Preparation',
+    title: 'Quick-Prep AI - AI-Powered Interview Preparation',
     description: 'Elevate your interview skills with AI-powered mock interviews. Get personalized coaching, real-time feedback, and boost your confidence.',
-    creator: '@MockMateAI',
+    creator: '@shutupsuhani',
     images: ['/twitter-image.png']
   },
   
