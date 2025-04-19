@@ -3,7 +3,7 @@ import { SignInButton, UserButton, SignedOut, SignedIn } from "@clerk/nextjs";
 import React, { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, Bot } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 function Header() {
   const path = usePathname();
@@ -75,7 +75,8 @@ function Header() {
           aria-label="Quick-Prep AI Home"
           onClick={closeMobileMenu}
         >
-          <Bot className="text-indigo-600" size={28} />
+          
+          <img src="/lg.svg" height={15} width={50}/>
           <span className="text-xl sm:text-2xl font-bold text-indigo-600">Quick-Prep AI</span>
         </Link>
 

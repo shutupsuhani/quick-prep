@@ -25,8 +25,12 @@ const geistMono = localFont({
 export const metadata = {
   metadataBase: new URL('https://www.quick-prep-ai.com'),
   title: {
-    default: 'Quick-Prep AI - AI-Powered Interview Preparation',
-    template: '%s |  AI'
+    default: 'Quick-Prep AI ',
+    template: '%s |  AI',
+    icons: {
+      icon: '/lg.svg', // or .png, .svg
+    },
+    
   },
   description: 'Elevate your interview skills with AI-powered mock interviews. Get personalized coaching, real-time feedback, and boost your confidence.',
   keywords: [
